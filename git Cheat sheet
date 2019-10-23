@@ -1,0 +1,59 @@
+#If you haven't cloned the repo and want to remotely add to the repo do this. It 
+# may need to be configured for its remotes if there is more than one.
+
+#The url of the repo you want to add to
+git remote set-url origin https://github.com/nhennigan/Digital-Systems-ALU16
+
+#Get the url of what you are remotely pushing to 
+git remote show origin 
+
+#same as normal add the folder you want
+git add HDLmodel/
+
+#add commit message
+git commit -m "Second assignment"
+
+#push to the repo
+git push -u origin head
+
+#If you are looking for files on the computer you cd .. and then cd .. again. The cd 
+# into mnt/ and this is the directory of your computer
+
+# if you want to clone a repo to your directory 
+git clone url/given/on/github
+
+#update a cloned repo
+git pull origin branchName/head
+
+# Set username 
+git config --global user.name "nhennigan"
+
+#Set email
+git config --global user.email "niamhhennigan@gmail.com"
+
+#to initialise the git repo
+git init
+
+#to see what git commands have carried out 
+git log
+
+#To see what changes are to be added 
+git diff 
+
+#If there is more than one person working on the git project you need branches
+#Lists all branches
+git branch 
+
+#create new branch 
+git branch newBranchName
+
+#delete a branch 
+git branch -d branchName
+
+#switch to a different branch
+git checkout branchName
+
+#if you want to add to a particular branch 
+git push origin branchName
+
+
