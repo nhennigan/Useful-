@@ -56,4 +56,9 @@ git checkout branchName
 #if you want to add to a particular branch 
 git push origin branchName
 
+#to remove a file from git that you pushed by accident 
+git rm -r folderName
 
+git commit -m "error in push"
+
+git push -u origin head
