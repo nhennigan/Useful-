@@ -1,14 +1,26 @@
 #If you haven't cloned the repo and want to remotely add to the repo do this. It 
 # may need to be configured for its remotes if there is more than one.
 
-#The url of the repo you want to add to
+#The url of the repo you want to add to -- add remote 
 git remote set-url origin https://github.com/nhennigan/Digital-Systems-ALU16
+
+#See all remotes 
+git remote -v
+
+#Remove a remote 
+git remote rm "name"
 
 #Get the url of what you are remotely pushing to 
 git remote show origin 
 
 #same as normal add the folder you want
 git add HDLmodel/
+
+#if you want to take off file from git add list
+git reset filename
+
+# or remove all files from git add
+git reset
 
 #add commit message
 git commit -m "Second assignment"
