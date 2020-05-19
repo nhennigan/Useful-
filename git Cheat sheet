@@ -74,3 +74,6 @@ git rm -r folderName
 git commit -m "error in push"
 
 git push -u origin head
+
+#Very good explaination at what is happening at everystage in the first response
+https://stackoverflow.com/questions/56028608/is-there-a-way-to-mirror-another-repos-master-to-a-non-master-branch-only
